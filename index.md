@@ -8,7 +8,7 @@ title: Student Blog
 I am Jonathan Liu, and I started coding via horrible Unity games in around sixth grade, but I didn't take programming as seriously as I did until now. 
  
 
-!["nahson"](images/freeform.png)
+<img src="images/freeform.png">
 I have experience in the following languages:
 C++,HTML,Javascript,CSS,Python, and Unity C#.
 
@@ -35,12 +35,12 @@ An (admittedly buggy) version of Solitaire I wrote while on a roadtrip, [Solitai
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cMuKp44WRo8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 This was part of a project regarding reading brainwaves, soldering, and Arduino.
-<img src="images/eeg.png">
+<img src="images/eeg.jpg">
 And many other projects that aren't noted here such as [this](https://spooketti.github.io/fivenights)
 
 Thanks for stopping by!
-!["justdontbeblind"](images/awesome.jpg)
-!["justdont](images/evenmoreawesome.jpg)
+<img src="images/awesome.jpg">
+<img src="images/evenmoreawesome.jpg">
 
 <button id='bruh' data-url="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUXbmV2ZXIgZ29ubmEgZ2l2ZSB5b3UgdXA%3D"  onclick="window.location.href = this.dataset.url;">Mystery Button</button>
 
