@@ -35,7 +35,7 @@ An (admittedly buggy) version of Solitaire I wrote while on a roadtrip, [Solitai
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cMuKp44WRo8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 This was part of a project regarding reading brainwaves, soldering, and Arduino.
-!["eeg"](images/eeg.jpg)
+!["maybeoneday"](images/eeg.jpg)
 And many other projects that aren't noted here such as [this](https://spooketti.github.io/fivenights)
 
 Thanks for stopping by!
