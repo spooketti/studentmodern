@@ -8,7 +8,7 @@ title: Student Blog
 I am Jonathan Liu, and I started coding via horrible Unity games in around sixth grade, but I didn't take programming as seriously as I did until now. 
  
 
-!["nahson"](/student/freeform.png)
+!["nahson"](/images/freeform.png)
 I have experience in the following languages:
 C++,HTML,Javascript,CSS,Python, and Unity C#.
 
