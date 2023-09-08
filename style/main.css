@@ -8,7 +8,7 @@ html,body
 }
 
 body {
-    background: linear-gradient(1deg, #014937, #02261d, #022a1f);
+    background: linear-gradient(179deg, #23055b, #0c2b27, #020b33);
     background-size: 600% 600%;
 
     -webkit-animation: AnimationName 30s ease infinite;
