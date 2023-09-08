@@ -8,8 +8,8 @@ firebase_admin.initialize_app(cred, {
 from firebase_admin import db
 from serial import Serial
 called = False
-toggle = False
-ser = Serial('COM3',9600) 
+toggle = "a"
+arduino = Serial(port='COM3',   baudrate=9600, timeout=.1)
 
 """
 if ser.isOpen():
@@ -26,8 +26,12 @@ def listener(message):
     if not called:
         called = True
         return
-    toggle = not toggle
-    ser.write((int(toggle))+1)
+    toggle += "a"
+    #print(toggle)
+    arduino.write(bytes(toggle,   'utf-8'))
+    time.sleep(0.05)
+    data = arduino.readline()
+    print(data)
     #print(str(int(toggle)).encode())
     #time.sleep(0.1)
     #print(ser.readline())
@@ -37,4 +41,6 @@ def listener(message):
    
 
 my_stream = db.reference("main/event").listen(listener)
+
+
 
