@@ -1,4 +1,5 @@
 import firebase_admin
+import time
 from firebase_admin import credentials
 cred = credentials.Certificate("credent.json")
 firebase_admin.initialize_app(cred, {
@@ -7,8 +8,8 @@ firebase_admin.initialize_app(cred, {
 from firebase_admin import db
 from serial import Serial
 called = False
-incri = 0
-#ser = Serial('COM3',9600) 
+toggle = False
+ser = Serial('COM3',9600) 
 
 """
 if ser.isOpen():
@@ -21,11 +22,18 @@ if ser.isOpen():
 
 def listener(message):
     global called
+    global toggle
     if not called:
         called = True
         return
-    incri+=1
-    Serial.write(incri)
+    toggle = not toggle
+    ser.write((int(toggle))+1)
+    #print(str(int(toggle)).encode())
+    #time.sleep(0.1)
+    #print(ser.readline())
+    #print(str(int(toggle)).encode())
+    #print(str(incri).encode())
+    #print(ser.readline().strip().decode("utf-8"))
    
 
 my_stream = db.reference("main/event").listen(listener)

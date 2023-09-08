@@ -1,12 +1,74 @@
+html,body
+{
+    height:100%;
+    width:100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.imageHolder
+{
+    border-radius: 2%;
+    width:100%;
+    height:100%;
+   /* background-image:conic-gradient(#0e7405,20deg,transparent 120deg);*/
+}
+
+.headerPFP
+{
+    height:95%;
+    width:95%;
+    margin:2.5% 2.5%;
+    --angle: 0deg;
+    border: 6px solid;
+    border-image: conic-gradient(from var(--angle), rgb(8, 229, 38), rgb(28, 191, 3), rgb(2, 134, 2), rgb(1, 96, 23), rgb(1, 70, 19),rgb(8, 229, 38)) 1;
+    
+    animation: 3s rotate linear infinite;
+}
+
+  @keyframes rotate {
+    to {
+      --angle: 360deg;
+    }
+  }
+  
+  @property --angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+  }
+  
+
+/*
+to do:
+
+AP CS: finish the python to arduino communication / restyle the website / add the hacks / github issues plan
+AP World: write 8 pages of notes today
+Chem: none
+Math: none
+Honors Humanities: finish the self portrait thing: fill out the art topic sheet
+Hanover: email
+academic thing
+
+
+a string: contains time data + 10
+
 ---
 layout: default
-title: Jonathan Liu's Blog
+title: Student Blog
 ---
 
 
 ## Who am I??
 I am Jonathan Liu, and I started coding via horrible Unity games in around sixth grade, but I didn't take programming as seriously as I did until now. 
  
+
+<img src="images/freeform.png">
+
 <img src="images/freeform.png">
 I have experience in the following languages:
 C++,HTML,Javascript,CSS,Python, and Unity C#.
@@ -51,4 +113,5 @@ Blogging in GitHub pages is a way to learn and code at the same time.
 - [Hacks(Todo)](https://levelup.gitconnected.com/six-ultimate-daily-hacks-for-every-programmer-60f5f10feae) enable you to stay in focus with key requirements of the class.  Each Hack will produce Tangibles.
 - Tangibles or [Tangible Artifacts](https://en.wikipedia.org/wiki/Artifact_(software_development)) are things you accumulate as a learner and coder. 
 
+*/
 
