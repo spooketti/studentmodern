@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
 html,body
 {
     height:100%;
@@ -6,31 +8,43 @@ html,body
 }
 
 body {
-    background: linear-gradient(0deg, #024001, #021902, #000000);
+    background: linear-gradient(1deg, #014937, #02261d, #022a1f);
     background-size: 600% 600%;
 
-    -webkit-animation: AnimationName 53s ease infinite;
-    -moz-animation: AnimationName 53s ease infinite;
-    animation: AnimationName 53s ease infinite;
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
     color: #ffffff;
     
 }
 
+h1,h2
+{
+    color:#23aaf2;
+}
+.links a
+{
+    font-size: xx-large;
+    font-family: 'Raleway', sans-serif;
+    color: #23aaf2;
+}
+
+
 
 @-webkit-keyframes AnimationName {
-    0%{background-position:70% 0%}
-    50%{background-position:31% 100%}
-    100%{background-position:70% 0%}
+    0%{background-position:0% 88%}
+    50%{background-position:100% 13%}
+    100%{background-position:0% 88%}
 }
 @-moz-keyframes AnimationName {
-    0%{background-position:70% 0%}
-    50%{background-position:31% 100%}
-    100%{background-position:70% 0%}
+    0%{background-position:0% 88%}
+    50%{background-position:100% 13%}
+    100%{background-position:0% 88%}
 }
 @keyframes AnimationName {
-    0%{background-position:70% 0%}
-    50%{background-position:31% 100%}
-    100%{background-position:70% 0%}
+    0%{background-position:0% 88%}
+    50%{background-position:100% 13%}
+    100%{background-position:0% 88%}
 }
 .imageHolder
 {
@@ -47,7 +61,7 @@ body {
     margin:2.5% 2.5%;
     --angle: 0deg;
     border: 6px solid;
-    border-image: conic-gradient(from var(--angle), rgb(8, 229, 38), rgb(28, 191, 3), rgb(2, 134, 2), rgb(1, 96, 23), rgb(1, 70, 19),rgb(8, 229, 38)) 1;
+    border-image: conic-gradient(from var(--angle), rgb(8, 133, 229), rgb(3, 9, 191), rgb(83, 2, 134), rgb(59, 1, 96), rgb(63, 1, 70),rgb(8, 133, 229)) 1;
     
     animation: 3s rotate linear infinite;
 }
