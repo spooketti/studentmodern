@@ -1,7 +1,7 @@
 ---
 toc: true
 comments: false
-layout: post
+layout: default
 title: Week 1 Plan
 description: Figure things out
 type: plans

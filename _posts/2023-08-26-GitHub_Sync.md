@@ -2,7 +2,7 @@
 toc: true
 comments: false
 hide: true
-layout: post
+layout: default
 type: help
 title: GitHub Overview
 ---

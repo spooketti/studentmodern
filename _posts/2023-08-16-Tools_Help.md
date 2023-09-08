@@ -2,7 +2,7 @@
 toc: false
 comments: false
 hide: true
-layout: post
+layout: default
 type: help
 title: Tool References
 ---

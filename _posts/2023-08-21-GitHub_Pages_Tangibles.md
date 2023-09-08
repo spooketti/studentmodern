@@ -1,7 +1,7 @@
 ---
 toc: true
 comments: true
-layout: post
+layout: default
 title: Review Ticket
 description: Example Review Ticket!!! This will help us communicate results.
 type: tangibles
