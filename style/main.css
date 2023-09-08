@@ -6,10 +6,32 @@ html,body
 }
 
 body {
-    background-color: #000000;
+    background: linear-gradient(0deg, #024001, #021902, #000000);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 53s ease infinite;
+    -moz-animation: AnimationName 53s ease infinite;
+    animation: AnimationName 53s ease infinite;
     color: #ffffff;
+    
 }
 
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:70% 0%}
+    50%{background-position:31% 100%}
+    100%{background-position:70% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:70% 0%}
+    50%{background-position:31% 100%}
+    100%{background-position:70% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:70% 0%}
+    50%{background-position:31% 100%}
+    100%{background-position:70% 0%}
+}
 .imageHolder
 {
     border-radius: 2%;
