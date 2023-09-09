@@ -10,7 +10,9 @@ Setup course data
 
 {% assign course = site.data[page.course] %} <!-- Load YML data -->
 {% assign units = page.units | split: ',' %}
-<h1>{{page.title}}</h1>
+<div class="typewriter">
+  <h1 class="typewriterText">{{page.title}}</h1>
+  </div>
 <br>
 
 {%comment%} 
@@ -27,9 +29,15 @@ Load all posts with site
 {% for unit in units %}
 {% assign unitKey = "Unit" | append: unit %}
 {% assign unitData = course[unitKey] %}
+<!--
 <h2>
   {{ unitKey }}: {{ unitData.title }}
 </h2>
+-->
+
+<div class="typewriter">
+  <h1 class="typewriterText"> {{ unitKey }}: {{ unitData.title }}</h1>
+  </div>
 <p>  {{ unitData.description }} </p>
 
 {% assign start = unitData.start %}
