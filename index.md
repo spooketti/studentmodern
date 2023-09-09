@@ -4,7 +4,9 @@ title: Jonathan Liu's Blog
 ---
 
 
-## Who am I??
+<div class="typewriter">
+<h1 class="typewriterText">Who Am I??</h1>
+</div>
 I am Jonathan Liu, and I started coding via horrible Unity games in around sixth grade, but I didn't take programming as seriously as I did until now. 
  
 <img src="images/freeform.png">
