@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-
 {%- include head.html -%}
 
 <body>
@@ -15,9 +14,13 @@
 
     <section>
       {{ content }}
+      {%- if page.comments -%}
+  {%- include utterances.html -%}
+{%- endif -%}
     </section>
-
+    
   </div>
+
 </body>
 <script src="{{site.baseurl}}/scripts/typewriter.js"></script>
 
