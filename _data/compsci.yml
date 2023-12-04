@@ -9,3 +9,8 @@ Unit2:
   description: Learn (JavaScript|Python|Java).  Start Agile development process.
   start: 4
   end: 7
+Unit3:
+  title: Trimester 2 Team Tech
+  description: Trimester 2 of AP CSP, Mainly team teaches
+  start: 8
+  end: 11
