@@ -2,7 +2,7 @@
 toc: true
 comments: true
 layout: default
-title: Homework for AP CSP
+title: The Internet HW
 description: Answers to the lesson on the internet
 type: hacks
 courses: { compsci: {week: 8} }
