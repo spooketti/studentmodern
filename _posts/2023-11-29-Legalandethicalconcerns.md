@@ -130,7 +130,7 @@ Data Privacy and Security:
 - Strict compliance with data protection laws is essential.
 - Breaches may result in legal consequences and regulatory penalties for Red Hat.
 
-# <span style="color:cadetblue">Homework</span>
+# <span style="color:cadetblue">Homework Questions</span>
 
 1. Describe the key differences between the Creative Commons Zero v1.0 Universal, Open Source MIT License, and Open Source GPL License.
 
