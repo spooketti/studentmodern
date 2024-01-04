@@ -129,15 +129,35 @@ Intellectual Property Protection:*
 Data Privacy and Security:
 - Strict compliance with data protection laws is essential.
 - Breaches may result in legal consequences and regulatory penalties for Red Hat.
+  
 
 # <span style="color:cadetblue">Homework Questions</span>
 
 1. Describe the key differences between the Creative Commons Zero v1.0 Universal, Open Source MIT License, and Open Source GPL License.
+<ul>
+<li>
+Creative Commons Zero v1.0 Universal: the creator waives all copyright responsibility and doesn't require credit
+</li>
+<li>
+Open Source MIT: anyone can modify the work so long as the original liscence / copyright notice stays
+</li>
+<li>
+Open Source GPL: anyone can modify the work; however, the work stays under GPL liscence (open source)
+</li>
 
 2. Give examples that illustrate how companies, such as Qualcomm and Red Hat, have leveraged Open Source licenses to establish unique business models.
+<ul>
+<li>Qualcomm has many contributions to the Linux Terminal and use open source software given they mainly sell wireless technology</li>
+<li>Red Hat made the Red Hat Enterprise Linux distribution and so companies are able to use open source software and recieve support from Red Hat. Red Hat also has contributed to Linux, Kubernetes, and OpenStack.</li>
 
+</ul>
 3. Why are businesses that heavily rely on Open Source software still need to generate income and how they manage this within the constraints of Open Source licenses.
+<br>
+Companies can make their income within the constraints of open source as they often recieve crowdfunding, community support, different monetization plans, partnerships with other companies, and more. 
 
 # <span style="color:cadetblue">Extra Credit</span>
 
 Explain the significance of choosing an appropriate license for personal and team GitHub repositories, especially for the CPT project. How does this relate to the broader themes of legal and ethical concerns in computing?
+
+The legal and ethical concerns in computing are linked to the licenses used as they provide legal protection to the software, and has set clarity on what people can and cannot do with the code strictly set. Many open source projects will use a more open liscence such as GPL. There are some ethical concerns and liscneces help leviate it as they encourage fairness and equality in what is done with the software.
+
