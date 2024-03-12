@@ -19,3 +19,8 @@ Unit4:
   description: Trimester 2 of AP CSP, probably just a bunch of review work
   start: 12
   end: 15
+Unit5:
+  title: Begin Data Structures
+  description: Trimester 3 of AP CSP, plan for the MCQ 
+  start: 16
+  end: 19
