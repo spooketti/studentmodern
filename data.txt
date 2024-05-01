@@ -99,5 +99,5 @@ baseball
 lightning
 bicycle
 flashlight
-telescope
+airplane
 door
