@@ -3,6 +3,7 @@ sun
 laptop
 anvil
 baseball_bat
+binoculars
 ladder
 eyeglasses
 grapes
@@ -99,4 +100,3 @@ baseball
 lightning
 bicycle
 flashlight
-door
